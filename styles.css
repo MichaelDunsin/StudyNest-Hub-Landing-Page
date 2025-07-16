@@ -362,10 +362,7 @@
   }
   
   .image-container {
-    background-color: var(--white);
-    padding: 1rem;
-    border-radius: var(--border-radius-xl);
-    box-shadow: var(--shadow-xl);
+    background-color: transparent;
     position: relative;
     z-index: 1;
   }
@@ -373,10 +370,85 @@
   .image-container img {
     border-radius: var(--border-radius-lg);
     width: 100%;
-    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
+
+  .study-reminder-card{
+    position:absolute;
+    margin-right:20px;
+    top:-25px;
+    right:-25px;
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.10);
+    padding:14px 22px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:Inter,sans-serif;
+    font-size:1rem;
+    z-index:2;
+  }
+
+  @media (max-width: 600px) {
+  .study-reminder-card{
+  padding:7px 11px;
+  font-size: 0.5rem;
+    gap:2px;
+  }
+  }
   
+.study-reminder-card-span{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:32px;
+    height:32px;
+    background:#e3f2fd;
+    border-radius:50%;
+    color:#1976d2;
+    font-weight:600;
+    font-size:1.2rem;
+}
+
+.study-success-rate-card{
+    position:absolute;
+    margin-left:20px;
+    bottom:-25px;
+    left:-25px;
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.10);
+    padding:14px 22px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:Inter,sans-serif;
+    font-size:1rem;
+    z-index:2;
+}
+
+  @media (max-width: 600px) {
+  .study-success-rate-card{
+  padding:7px 11px;
+  font-size: 0.5rem;
+    gap:3px;
+  }
+  }
+
+.study-success-rate-card-span{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:32px;
+    height:32px;
+    background:#f8bbd0;
+    border-radius:50%;
+    color:#d81b60;
+    font-weight:600;
+    font-size:1.2rem;
+}
+
   .image-overlay {
     position: absolute;
     inset: 0;
