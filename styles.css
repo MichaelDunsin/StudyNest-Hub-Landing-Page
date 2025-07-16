@@ -373,6 +373,25 @@
     object-fit: cover;
   }
 
+ /* Animation keyframes */
+    @keyframes floatUpDown {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+    @keyframes floatDownUp {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(10px); }
+      100% { transform: translateY(0); }
+    }
+    /* Animation classes */
+    .float-up-down {
+      animation: floatUpDown 3s ease-in-out infinite;
+    }
+    .float-down-up {
+      animation: floatDownUp 3s ease-in-out infinite;
+    }
+
   .study-reminder-card{
     position:absolute;
     margin-right:20px;
