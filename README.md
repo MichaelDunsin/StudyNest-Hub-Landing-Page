@@ -49,9 +49,9 @@ cd studynest
 
 ## 🎨 Screenshots
 
-![Landing Page Screenshot](Screenshot%20(80).webp)
-![Landing Page Screenshot](Screenshot%20(81).webp)
-![Landing Page Screenshot](Screenshot%20(82).webp)
+![Landing Page Screenshot](Screenshot%20(80).png)
+![Landing Page Screenshot](Screenshot%20(81).png)
+![Landing Page Screenshot](Screenshot%20(82).png)
 
 ## 📜 License  
 
